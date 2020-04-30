@@ -1,0 +1,9 @@
+// Import Bulma's core
+// Set your colors
+$primary: #67416A;
+$link: #77B2BC;
+$footer-background-color: #2c2f34;
+$link-hover: $primary;
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
