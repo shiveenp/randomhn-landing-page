@@ -1,9 +1,9 @@
 {
   "name": "randomhn-landing-page",
   "version": "1.0.0",
-  "description": "My brilliant Nuxt.js project",
+  "description": "Random Hacker News Link Generator ✨ \uD83D\uDE80 \uD83E\uDD84",
   "author": "shiveenpandita",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
+    "axios": "^0.19.2",
     "node-sass": "^4.14.0",
     "nuxt": "^2.0.0",
     "nuxt-buefy": "^0.3.2",
