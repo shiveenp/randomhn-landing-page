@@ -35,6 +35,7 @@
         this.isLoading = true;
         axios.get('https://qxjoqsucf5.execute-api.ap-southeast-2.amazonaws.com/default/randomhn')
           .then(response => {
+            this.isLoading = false;
             const itemId = response.data;
             window.location = `https://news.ycombinator.com/item?id=${itemId}`;
           }).catch(error => {
